@@ -1,0 +1,10 @@
+﻿apiVersion: v1
+kind: Pod
+metadata:
+   name: answerquestion-pod
+spec:
+   containers:
+   - name: answerquestion-container01
+     image: seyfullah.cank/answerquestion:latest
+     ports:
+     - containerPort: 6379

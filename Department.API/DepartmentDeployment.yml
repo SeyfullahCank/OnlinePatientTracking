@@ -1,0 +1,10 @@
+﻿apiVersion: v1
+kind: Pod
+metadata:
+   name: department-pod
+spec:
+   containers:
+   - name: department-container01
+     image: seyfullah.cank/department:latest
+     ports:
+     - containerPort: 6379
